@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: linear-gradient(to right, #7B24C8, #6706BD );
+}
+
+main{
+    background-image:linear-gradient(to left, white, rgb(243, 243, 243));
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 4px 10px #35184F ;
+    width:550px;
+    padding:10px;
+}
+#principal{
+    text-align: center;
+    color: #4B048A;
+    text-shadow: 2px 1px 3px #35184F;
+}
+
+#apresentacao{
+    text-indent: 15px;
+}
+
+h2{
+    text-align: center;
+    color: #4B048A;
+    
+}
+
+
+
