@@ -2,19 +2,17 @@
 
 body{
     height: 100vh;
-    background-color: slategray;
     margin: 0px;
-    background-image: url("../imagens/wallpaper002.jpg");
+    background: white url('../imagens/wallpaper002.jpg') center center no-repeat fixed;
     background-size: cover;
-    background-repeat: repeat-y;
 }
 
 header{
     color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.781);
     border: 1px solid black;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.699);
     text-align: center; 
-    margin-bottom: -19px;
     padding: 10px;
 }
 
