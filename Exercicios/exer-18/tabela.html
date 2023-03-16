@@ -38,24 +38,24 @@
         
         <thead>
             <tr>
-                <th>
+                <th scope="col">
                     Grupos
                 </th>
 
-                <th>
+                <th scope="col">
                     Nomes
                 </th>
 
-                <th colspan="3">
+                <th colspan="3" scope="colgroup">
                     Filmes
                 </th>
             </tr>
         </thead>
 
         <tbody>
-            <!-- Primeira Linha -->
+            <!-- Primeira Linha/ 1° Grupo -->
             <tr>
-                <th rowspan="3">
+                <th rowspan="3" scope="rowgroup">
                     Mulheres
                 </th>
 
@@ -111,9 +111,9 @@
                     Big Hero
                 </td>
             </tr>
-            <!-- Quarta Linha. Novo genero -->
+            <!-- Quarta Linha. 2° Grupo -->
             <tr>
-                <th rowspan="3">
+                <th rowspan="3" scope="rowgroup">
                     Homens
                 </th>
                 
@@ -169,10 +169,8 @@
                     Toy Story
                 </td>
             </tr>
-
-
         </tbody>
-
+        
     </table>
 
 </body>
